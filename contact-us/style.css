@@ -1,0 +1,65 @@
+/* reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.style{
+    display: block;
+    border: none;
+    border-bottom: 1px solid dimgray;
+}
+.inline-block{
+    display: inline-block;
+    width: 50%;
+}
+/* custom style */
+h1{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+hr{
+ width: 10%;
+ margin: auto;
+ border: 2px solid orange;   
+}
+p{
+    text-align: center;
+    margin-top: 30px;
+    color: lightgray;
+}
+input{
+    width: 100%;
+    margin-top: 40px;
+}
+form{
+    margin-top: 50px;
+}
+textarea{
+    resize: none;
+    vertical-align: top;
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 40%;
+    padding-bottom: 91px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+button{
+    color: white;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 5%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    padding: 1% 3%;
+}
