@@ -1,0 +1,225 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* Global style */
+.container{
+    width: 85%;
+    margin: auto;
+    margin-top: 32px;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.bg-color{
+    background-color: #F4F4F4;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.position-relative{
+    position: relative;
+}
+.bg-green{
+    background-color: #285E67;
+}
+/* custom style */
+/* nav-bar */
+.circle-logo{
+    background-color: #D0D0D0;
+    width: 26px;
+    height: 26px;
+    border: 2px solid #D0D0D0;
+    border-radius: 50%;
+}
+h1{
+    font-weight: 600;
+    font-size: 21.33px;
+    color: #285E67;
+    margin-left: 12px;
+}
+.nav-ul li{
+    margin-left: 40px;
+}
+/* main-section */
+.main-sec h2{
+    color: #2A2A2A;
+    font-weight: 600;
+    font-size: 65.34px;
+}
+.main-sec p{
+    color: #2B2B2B;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+.main-sec button{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 21.33px;
+    background-color: #285E67;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px 40px;
+    border: 2px solid #285E67;
+    border-radius: 67px;
+}
+.main-img{
+    margin-top: 56px;
+    margin-bottom: 150px;
+}
+/* wellbeing section */
+.wellbeing-sec h2{
+    color: #2B2B2B;
+    font-weight: 600;
+    font-size: 50.52px;
+}
+.wellbeing-card{
+    width: 260px;
+    margin-top: 70px;
+    margin-right: 69px;
+}
+.wellbeing-card p{
+    line-height: 24px;
+    margin-top: 15px;
+}
+.wellbeing-cards img{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+/* fresh produce section */
+.fresh-heading{
+    height: 474px;
+    width: 623.5px;
+}
+.fresh-produce-sec{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.fresh-produce-sec .img1{
+    margin-right: 80px;
+    width: 623.5px;
+    height: 578px;
+}
+.fresh-heading h2{
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 50.52px;
+    color: #2B2B2B;
+}
+.fresh-heading p{
+    margin-bottom: 50px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.fresh-details img{
+    width: 52px;
+    height: 52px;
+    margin-right: 23px;
+}
+/* what you eat section */
+.what-you-eat{
+    padding-top: 80px;
+}
+.what-eat-heading{
+    margin-left: 80px;
+}
+.what-eat-heading h2{
+    font-weight: 600;
+    font-size: 50.52px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.what-eat-heading p{
+    color: #2A2A2A;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 30px;
+}
+.what-eat-details{
+    width: 30%;
+}
+/* welldoing starts section */
+ .welldoing-starts-sec{
+    padding-bottom: 100px;
+ }
+.bg-img{
+    background-image: url(bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welldoing-starts-details{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.welldoing-starts-details img{
+    padding-top: 150px;
+}
+.welldoing-starts-details h2{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 37.9px;
+    margin-top: 40px;
+}
+.welldoing-starts-details p{
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.welldoing-starts-details button{
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 67px;
+    font-weight: 600;
+    font-size: 21.33px;
+    padding: 1% 8%;
+    margin-bottom: 50px;
+
+}
+.bg-flat-white{
+    background-color: #FCE2D7;
+}
+.Plant-protective{
+    width: 80%;
+    height: 250px;
+    margin-top: 40px;
+    position: absolute;
+    bottom: -125px;
+    right: 125px;
+    align-items: center;
+}
+/* footer */
+footer{
+    margin-top: 250px;
+    padding-top: 50px;
+}
+.logo h2{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 21.33px;
+    margin-left: 10px;
+}
+.icons{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
